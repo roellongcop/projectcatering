@@ -1,5 +1,6 @@
 <?php
 
+//test
 class AdminLogs extends CI_Controller
 {
 
