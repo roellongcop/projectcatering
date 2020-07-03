@@ -1,0 +1,558 @@
+body, span, h1, h2, h3, h4, h5, label, p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+
+#resBadge {
+	background: #e67e22!important;
+}
+
+.terms {
+	padding: 15px;
+	font-size: 18px;
+}
+
+.term-item {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #3498db;
+}
+
+.theme-link {
+	color: #3498db; 
+	cursor: pointer; 
+	text-decoration: underline; 
+	font-size: 16px;
+}
+
+.sales-report-area {
+	height: 250px;
+	position: relative;
+	padding: 20px;
+}
+
+.sales-buttons {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0px!important;
+}
+
+.user-panel p {
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+	margin-bottom: 0px;
+}
+
+.past-pending {
+	background: red;
+	padding: 5px;
+	color: #FFF;
+}
+
+.set-featured {
+	cursor: pointer;	
+}
+
+.circle {
+	background: #3D3D3D; 
+	width: 30px; 
+	height: 30px; 
+	border-radius: 64px; 
+	margin-top: -25px;
+	margin-left: 77%;
+	text-align: center;
+	padding-top: 4px;
+	color: #FFF;
+}
+
+.circle-confirmed {
+	background: #3498db;
+}
+
+.circle-reject {
+	background: #e74c3c;
+}
+
+
+.excel-button {
+	padding: 10px;
+	border: 0!important;
+	background: #3498db!important;
+	box-shadow: none!important;
+	border-radius: 0px!important;
+	color: #FFF!important;
+	padding: 12px!important;
+}
+
+.excel-button:hover {
+	background: #2980b9!important;
+}
+
+
+.badge-default {
+	background: #34495e;
+	color: #FFF;
+}
+
+.badge-primary {
+	background: #3498db;
+	color: #FFF;
+}
+
+.badge-danger {
+	background: #e74c3c;
+	color: #FFF;
+}
+
+.view-status {
+	text-align: right;
+}
+
+.view-status h5 {
+	font-size: 32px;
+	margin-top: 0px;
+}
+
+.confirmed {
+	color: #27ae60;
+	margin-bottom: 0px;
+}
+
+.pending {
+	color: #2c3e50;
+	margin-bottom: 0px;
+}
+
+.rejected {
+	color: #e74c3c;
+	margin-bottom: 0px;
+}
+
+.request-for-cancel {
+	margin-left: 10px;
+	padding: 10px;
+	background: #FBE4DF;
+}
+
+.cancel-reason {
+	margin-left: 10px;
+	padding: 10px;
+	background: #FBE4DF;
+}
+
+.rescode-display {
+}
+
+.rescode-display h5 {
+	margin-bottom: 0px;
+	font-size: 32px;
+	margin-left: 10px;
+	margin-top: 0px;
+	color: #e67e22;
+}
+
+.rescode-display small {
+	margin-left: 10px;
+}
+
+.events {
+	margin-top: 10px;
+	background: #F7F7F7;
+	border-radius: 2px;
+	display: inline-block;
+	height: 400px;
+	padding: 10px;
+}
+
+.error-div {
+	margin-top: 5px;
+	background: #FCDFDC;
+	border: solid 1px #c0392b;
+	padding: 5px;
+}
+
+.event-details {
+	padding-left: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.past-events {
+	background: #ecf0f1;
+	border: solid 2px #bdc3c7;
+	padding: 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.featured {
+	border: solid 2px #f1c40f;
+	background: #FEF8DD;
+}
+
+
+.past-event-info {
+	background: #27ae60;
+	text-align: center;
+	padding: 5px;
+	color: #FFF;
+	margin-bottom: 5px;
+}
+
+.past-event-info:hover {
+	background: #218B4E;
+	color: #FFF;
+}
+
+.past-right img {
+	max-width: 85%;
+}
+
+.pastEventMore {
+	color: #d35400!important;
+	cursor: pointer!important;
+}	
+
+.remove-featured {
+	background: #f39c12;
+	color: #FFF;
+	text-align: center;
+	padding: 5px;
+}
+
+.remove-featured:hover {
+	background: #e67e22;
+	color: #FFF;
+}
+
+
+.error-past-events {
+	cursor: pointer;
+	width: 50%;
+	padding: 5px;
+	padding-left: 15px;
+	background: #FED6D2;
+	color: #c0392b;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+
+.set-featured {
+	background: #3498db;
+	color: #FFF;
+	text-align: center;
+	padding: 5px;
+}
+
+.set-featured:hover {
+	background: #2980b9;
+	color: #FFF;
+}
+
+.past-event-details h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #0068FE;
+	font-size: 16px;
+}
+
+.past-event-details a {
+	display: block;
+	margin: 0 auto;
+}
+
+.package-area {
+	padding: 0px 10px;
+	height: 320px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #EDF7FE;
+	border: solid 2px #ABDCFE;
+	font-size: 15px;
+}
+
+
+
+.package-area .package-price {
+	background-color: #16a085; 
+	color: #FFF;
+	font-size: 20px;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#itemsContainer {
+	height: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.package-price-area {
+	background-color: #27ae60;
+	padding: 10px;
+	color: #FFF;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	width: 95%;
+}
+
+.package-tools {
+  	text-align: center;
+  	background-color: #FFF;
+  	margin-bottom: 30px;
+  	padding-top: 10px;
+  	height: 40px;
+}
+
+.customer-details, .other-details {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	background: #dff9fb;
+}
+
+.customer-details h5, .other-details h5 {
+	font-size: 18px;
+	font-weight:bolder;
+}
+
+.customer-details span, .other-details span {
+	font-size: 16px;
+}
+
+.res-details {
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 10px;
+	background: #dff9fb;
+}
+
+.res-details h5 {
+	font-size: 18px;
+	font-weight:bolder;
+}
+
+.res-details span {
+	font-size: 16px;
+}
+
+.package-items {
+	padding: 10px;
+	height: 220px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.package-items h5 {
+	font-size: 18px;
+}
+
+.res-controls {
+	padding: 20px;
+}
+
+.btnConfirmReservation {
+	text-align: center;
+	cursor: pointer;
+	border: solid 1px #2ecc71;
+	color: #2ecc71;
+}
+
+.btnConfirmReservation h5 {
+	font-size: 18px;
+} 
+
+.btnConfirmReservation:hover {
+	background: #D2FFE5;
+	color: #27ae60;
+}
+
+.btnShowCancelReason {
+	text-align: center;
+	cursor: pointer;
+	border: solid 1px #e74c3c;
+	color: #e74c3c;
+}
+.btnShowCancelReason:hover {
+	background: #FED6D2;
+	color: #c0392b;
+}
+
+.btnShowCancelReason h5 {
+	font-size: 18px;
+}
+.items-in-package {
+	padding: 5px;
+	padding-top: 2px;
+	background-color: #DCEFFF;
+}
+
+#action-area {
+	margin-top: 30px;
+}
+
+
+.reservation-today {
+	background-color: #DCEFFF;
+	padding: 10px 20px;
+	padding-bottom: 10px;
+	overflow-y: auto;
+	height: 250px;
+}
+
+.divDeployed {
+	background-color: #2ecc71;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.add-item-modal h5 {
+	margin-bottom: 2px;
+}
+
+.next-week-events {
+	padding: 10px;
+	height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.next-week-events h4 {
+	color: #d35400;
+	font-size: 26px;
+	margin-top: 0px;
+}
+
+.next-event-block {
+	background: #E1F0FF;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+.next-event-block:hover {
+	background: #BFDFFF;
+}
+
+.info {
+	cursor: pointer;
+	background: #3498db;
+	color: #FFF;
+	padding: 7px;
+	border-radius: 3px;
+}
+
+.info:hover {
+	background: #2980b9;
+	color: #FFF;
+}
+
+.delete {
+	cursor: pointer;
+	background: #e74c3c;
+	color: #FFF;
+	padding: 7px;
+	border-radius: 3px;
+}
+
+.delete:hover {
+	background: #c0392b;
+	color: #FFF;
+}
+
+.next-event-block h5 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.e-completed {
+	border: solid 2px #2ecc71;
+}
+
+.event-today {
+	padding: 10px;
+	height: 300px;
+}
+
+.event-today h4 {
+	color: #d35400;
+	font-size: 26px;
+	margin-top: 0px;
+}
+
+.event-today h3 {
+	text-decoration: underline;
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.event-today h5 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: #2980b9;
+}
+
+.today-details {
+	/*background: #F9F9F9;*/
+	padding: 15px;
+	height: 230px;
+}
+
+#btnMarkComplete {
+	width: 100%;	
+}
+
+.today-details h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #27ae60;
+	background: #EFFCF5;
+	padding: 10px;
+}
+
+.today-details h4 {
+	font-size: 18px;
+	color: #2980b9;
+}
+
+.theme-image-table {
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.preview-box {
+	max-width: 80%;
+}
+
+.mark-cancelled {
+	text-transform: uppercase;
+	color: red;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.mark-cancelled:hover {
+	color: red;
+}
